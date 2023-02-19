@@ -31,11 +31,11 @@ const News = () => {
         </Masonry>
       </ResponsiveMasonry>
 
-      <div class="mx-auto w-fit px-6 lg:px-8">
+      {/* <div class="mx-auto w-fit px-6 lg:px-8">
         <button class="text-lg px-3 py-2 shadow-sm rounded-md font-semibold whitespace-nowrap tracking-tight text-indigo-600 border border-indigo-600 hover:bg-indigo-600 hover:text-white focus:bg-indigo-600 focus:text-white">
           Load More
         </button>
-      </div>
+      </div> */}
     </div>
   );
 };

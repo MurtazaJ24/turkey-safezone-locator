@@ -16,7 +16,7 @@ const Map = ({ data }) => {
   const [selectedLoc, setSelectedLoc] = useState(null);
 
   return (
-    <div className="bg-white px-6 lg:px-8 py-8 sm:py-12">
+    <div id="map" className="bg-white px-6 lg:px-8 py-8 sm:py-12">
       <div class="mx-auto max-w-7xl px-6 lg:px-8 pb-8 lg:pb-12">
         <h1 class="text-2xl text-center font-semibold tracking-tight text-gray-700 sm:text-4xl md:text-left">
           Recent Earthquakes
