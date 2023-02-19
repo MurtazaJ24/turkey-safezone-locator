@@ -1,6 +1,6 @@
 const Facts = () => {
   return (
-    <div class="py-8 sm:py-12">
+    <div id="facts" class="py-8 sm:py-12">
       <div class="mx-auto max-w-7xl px-6 lg:px-8">
         <div class="mx-auto pb-8 lg:pb-12">
           <h1 class="text-2xl text-center font-semibold tracking-tight text-gray-600 sm:text-4xl md:text-left">

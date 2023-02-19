@@ -1,7 +1,13 @@
 import dynamic from "next/dynamic";
+import Donate from "./Donate";
 import Facts from "./Facts";
 
 const Map = dynamic(() => import("./Map"), {
+  loading: () => <p>loading...</p>,
+  ssr: false,
+});
+
+const News = dynamic(() => import("./News"), {
   loading: () => <p>loading...</p>,
   ssr: false,
 });
@@ -16,7 +22,9 @@ export default async function Home() {
   return (
     <>
       <Facts />
+      <Donate />
       <Map data={data} />
+      <News />
     </>
   );
 }

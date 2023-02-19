@@ -2,11 +2,14 @@ import { Fragment } from "react";
 
 const Navbar = () => {
   return (
-    <div className="relative bg-white/90 border-b-2 border-gray-100">
+    <div className="fixed w-full z-50 bg-white/90 border-b-2 border-gray-100">
       <div className="mx-auto max-w-7xl px-6">
         <div className="flex items-center justify-between py-5 md:justify-start md:space-x-10">
           <div className="flex justify-start lg:w-0 lg:flex-1">
-            <a className="text-2xl text-indigo-600 font-bold" href="/">
+            <a
+              className="text-2xl text-indigo-600 font-bold hover:text-indigo-700"
+              href="/"
+            >
               Turkey SafeZone Locator
             </a>
           </div>
@@ -35,13 +38,13 @@ const Navbar = () => {
           </div>
           <nav className="hidden space-x-10 md:flex">
             <a
-              href="#"
+              href="#facts"
               className="text-md font-medium text-gray-500 hover:text-gray-900"
             >
               Facts
             </a>
             <a
-              href="#"
+              href="#news"
               className="text-md font-medium text-gray-500 hover:text-gray-900"
             >
               Latest News
@@ -55,7 +58,7 @@ const Navbar = () => {
               Helpline &#9742;
             </a>
             <a
-              href="#"
+              href="#donate"
               className="ml-8 inline-flex items-center justify-center whitespace-nowrap rounded-md border border-transparent bg-indigo-600 px-4 py-2 text-md font-medium text-white shadow-sm hover:bg-indigo-700"
             >
               Donate $
